@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #004999;
+    --accent-color: #00a8e8;
+    --gold-color: #ffa726;
+    --font: "Poppins", sans-serif;
+}
+
+html {
+    font-family: var(--font);
+}
+
+/* Navbar Style - Start */
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-brand i {
+    color: var(--gold-color);
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--gold-color) !important;
+    transform: translateY(-2px);
+}
+
+.btn-login-nav {
+    background: var(--gold-color);
+    color: var(--secondary-color);
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-login-nav:hover {
+    background: white;
+    color: var(--primary-color);
+    transform: scale(1.05);
+}
+/* Navbar Style - End */
