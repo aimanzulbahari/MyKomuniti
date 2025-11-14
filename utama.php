@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/assets/img/MBSA-Emblem.svg" type="image/x-icon">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/portal-css/portal.css">
-    <title>Portal Golden Parking | MBSA</title>
+    <title>Portal MyMPP | MBSA</title>
 
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
