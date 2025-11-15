@@ -7,8 +7,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/MBSA-Emblem.svg" type="image/x-icon">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/portal-css/portal.css">
-    <title>Portal MyMPP | MBSA</title>
+    <link rel="stylesheet" href="assets/css/portal-css/portal.css">
+    <title>Portal MYMPP | MBSA</title>
 
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -81,6 +81,63 @@
     <!-- CTA  Section - End -->
 
     <!-- Footer - Start -->
+    <footer id="hubungi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">Majlis Bandaraya Shah Alam</h5>
+                    <p class="text-white-50">Sistem Permohonan Ahli Majlis MyMPP direka untuk memudahkan proses permohonan dan meningkatkan kecekapan perkhidmatan kepada rakyat.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">Pautan Pantas</h5>
+                    <a href="#home" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Utama</a>
+                    <a href="#ahli" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Ahli Majlis</a>
+                    <a href="#perkhidmatan" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Perkhidmatan</a>
+                    <a href="#proses" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Proses Permohonan</a>
+                    <a href="#" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Soalan Lazim</a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">Hubungi Kami</h5>
+                    <p class="text-white-50 mb-3">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        Majlis Bandaraya Shah Alam<br>
+                        <span class="ms-4">Persiaran Perbandaran</span><br>
+                        <span class="ms-4">40000 Shah Alam, Selangor</span>
+                    </p>
+                    <p class="text-white-50 mb-2">
+                        <i class="fas fa-phone me-2"></i>03-5511 0000
+                    </p>
+                    <p class="text-white-50 mb-2">
+                        <i class="fas fa-envelope me-2"></i>mympp@mbsa.gov.my
+                    </p>
+                    <p class="text-white-50 mb-2">
+                        <i class="fas fa-clock me-2"></i>Isnin - Jumaat: 8:00 AM - 5:00 PM
+                    </p>
+                </div>
+            </div>
+
+            <hr class="my-4 bg-white opacity-25">
+
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 text-white-50">&copy; 2024 Majlis Bandaraya Shah Alam. Hak Cipta Terpelihara.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="footer-link d-inline-block me-3">Dasar Privasi</a>
+                    <a href="#" class="footer-link d-inline-block me-3">Terma & Syarat</a>
+                    <a href="#" class="footer-link d-inline-block">Penafian</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer - End -->
 
     <!-- Script CDN -->
