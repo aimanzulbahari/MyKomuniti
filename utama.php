@@ -1,24 +1,13 @@
-<?php
-$site_name = "MYMPP | MBSA";
-$favicon = 'assets/img/MBSA-Emblem.svg';
-$logo = 'assets/img/logo/mympp-logo.png';
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $site_name; ?></title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo $favicon; ?>" type="image/x-icon">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>MYMPP | UTAMA</title>
 </head>
+
+<?php include 'includes/header.php' ?>
 
 <body class="main-page">
     <header id="header" class="header d-flex align-items-center fixed-top">
@@ -366,12 +355,9 @@ $logo = 'assets/img/logo/mympp-logo.png';
                 <h2>Pasukan Pembangun Sistem</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
                     omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-            </div><!-- End Section Title -->
-
+            </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-
                 <div class="row gy-5">
-
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <div class="member-img">
@@ -390,7 +376,6 @@ $logo = 'assets/img/logo/mympp-logo.png';
                             </div>
                         </div>
                     </div><!-- End Team Member -->
-
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
                         <div class="team-member">
                             <div class="member-img">
@@ -409,7 +394,6 @@ $logo = 'assets/img/logo/mympp-logo.png';
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-member">
                             <div class="member-img">
@@ -428,7 +412,6 @@ $logo = 'assets/img/logo/mympp-logo.png';
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="350">
                         <div class="team-member">
                             <div class="member-img">
@@ -507,9 +490,7 @@ $logo = 'assets/img/logo/mympp-logo.png';
                                     <span class="detail-value">547 Madison Avenue<br>New York, NY 10022</span>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col-lg-7">
@@ -517,9 +498,7 @@ $logo = 'assets/img/logo/mympp-logo.png';
                             <div class="form-header">
                                 <h3>Hantar Mesej Kepada Kami</h3>
                             </div>
-
                             <form action="forms/contact.php" method="post" class="php-email-form">
-
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -534,37 +513,28 @@ $logo = 'assets/img/logo/mympp-logo.png';
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="form-group">
                                     <label>Subject</label>
                                     <input type="text" name="subject" required="">
                                 </div>
-
                                 <div class="form-group">
                                     <label for="projectMessage">Message</label>
                                     <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
                                 </div>
-
                                 <div class="my-3">
                                     <div class="loading">Loading</div>
                                     <div class="error-message"></div>
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
-
                                 <button type="submit" class="submit-btn">
                                     <span>Hantar</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </button>
-
                             </form>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </section>
         <!-- Contact Us Section - End -->
 
@@ -632,6 +602,8 @@ $logo = 'assets/img/logo/mympp-logo.png';
         <!-- Preloader -->
         <div id="preloader"></div>
     </main>
+
+    <?php include 'includes/footer.php' ?>
 </body>
 
 </html>
