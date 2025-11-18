@@ -11,7 +11,7 @@ include 'includes/portal-header.php';
     <title></title>
 </head>
 
-<body class="index-pages">
+<body class="index-page">
     <main class="main">
         <!-- Hero Section -->
         <section id="hero" class="hero section light-background">
@@ -49,7 +49,7 @@ include 'includes/portal-header.php';
 
                     <div class="col-lg-6">
                         <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
-                            <img src="assets/img/about/Shah-Alam.jpeg" alt="Business Success" class="img-fluid">
+                            <img src="assets/img/mympp-about/Shah-Alam.jpeg" alt="Business Success" class="img-fluid">
                             <div class="floating-card" data-aos="zoom-in" data-aos-delay="600">
                                 <div class="card-icon">
                                     <i class="bi bi-graph-up-arrow"></i>
@@ -110,7 +110,6 @@ include 'includes/portal-header.php';
                                     <div class="stat-label">Pejabat Cawangan</div>
                                 </div>
                             </div>
-
                             <div class="cta-section">
                                 <a href="#" team="" class="btn-outline">Senarai Ahli Majlis</a>
                             </div>
@@ -119,7 +118,7 @@ include 'includes/portal-header.php';
 
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="image-wrapper">
-                            <img src="assets/img/about/MBSA.jpg" alt="About us" class="img-fluid">
+                            <img src="assets/img/mympp-about/MBSA.jpg" alt="About us" class="img-fluid">
                             <div class="floating-card" data-aos="zoom-in" data-aos-delay="500">
                                 <div class="card-content">
                                     <div class="icon">
@@ -134,10 +133,191 @@ include 'includes/portal-header.php';
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </section><!-- /About Section -->
+
+        <!-- Why Us Section -->
+        <section id="why-us" class="why-us section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <span class="subtitle">Info Sistem</span>
+                <h2>Info Mengenai Sistem</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div><!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                        <div class="content">
+                            <h2>Teknologi Yang Digunakan</h2>
+                            <p>We deliver exceptional results through proven expertise, cutting-edge innovation, and unwavering
+                                commitment to your success. Our comprehensive approach ensures sustainable growth and competitive
+                                advantage.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                        <div class="image-wrapper">
+                            <img src="assets/img/mympp-about/info-sistem.jpg" alt="Professional team collaboration" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="features-grid" data-aos="fade-up" data-aos-delay="400">
+                    <div class="row g-5">
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="feature-item">
+                                <div class="icon-wrapper">
+                                    <i class="bi bi-lightbulb"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Front-End</h3>
+                                    <p>We stay ahead of industry trends, implementing cutting-edge technologies and methodologies that
+                                        drive transformational results for your business growth.</p>
+                                </div>
+                            </div>
+                        </div><!-- End Feature Item -->
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="feature-item">
+                                <div class="icon-wrapper">
+                                    <i class="bi bi-award"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Back-End</h3>
+                                    <p>Our team brings decades of combined experience across multiple industries, ensuring strategic
+                                        insights and tactical execution that delivers measurable outcomes.</p>
+                                </div>
+                            </div>
+                        </div><!-- End Feature Item -->
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="feature-item">
+                                <div class="icon-wrapper">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Infrastruktur & Server</h3>
+                                    <p>Round-the-clock availability with personalized attention from dedicated account managers who
+                                        understand your unique challenges and objectives.</p>
+                                </div>
+                            </div>
+                        </div><!-- End Feature Item -->
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="feature-item">
+                                <div class="icon-wrapper">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Keselamatan Data Pengguna</h3>
+                                    <p>Streamlined processes and intelligent resource allocation reduce overhead while maximizing ROI,
+                                        delivering premium results within your budget parameters.</p>
+                                </div>
+                            </div>
+                        </div><!-- End Feature Item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Why Us Section -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section light-background">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <span class="subtitle">Hubungi</span>
+                <h2>Hubungi Kami</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Maklumat Hubungan</h4>
+                                <p>We're here to discuss your vision and explore how we can bring it to life together.</p>
+                            </div>
+                        </div>
+                        <div class="contact-details">
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="bi bi-envelope-open"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Emel Kami</span>
+                                    <span class="detail-value">mbsa@mbsa.gov.my</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="bi bi-telephone-outbound"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Hotline MBSA</span>
+                                    <span class="detail-value">03-55105133</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Alamat Kami</span>
+                                    <span class="detail-value">Wisma MBSA, Persiaran Perbandaran, 40000
+                                        Shah Alam, Selangor Darul Ehsan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="form-wrapper">
+                            <div class="form-header">
+                                <h3>Tinggalkan Mesej Kepada Kami</h3>
+                            </div>
+                            <form action="forms/contact.php" method="post" class="php-email-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Nama Penuh</label>
+                                            <input type="text" name="name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Alamat Emel</label>
+                                            <input type="email" name="email" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Subjek</label>
+                                    <input type="text" name="subject" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="projectMessage">Mesej/Pesanan</label>
+                                    <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <button type="submit" class="submit-btn">
+                                    <span>Hantar</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Contact Section -->
+
     </main>
 </body>
 <?php include 'includes/portal-footer.php'; ?>

@@ -3,7 +3,6 @@
 $favicon = 'assets/img/MBSA-Emblem.svg';
 $logo = 'assets/img/logo/mympp-logo.png';
 $site_name = "MYMPP | UTAMA";
-$CSS_Path = 'assets/portal-css/portal.css';
 ?>
 
 <!DOCTYPE html>
@@ -12,13 +11,13 @@ $CSS_Path = 'assets/portal-css/portal.css';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title><?php echo $site_name?></title>
+    <title><?php echo $site_name ?></title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo $favicon ?>" type="image/x-icon">
 
     <!-- Portal CSS -->
-    
+    <link rel="stylesheet" href="assets/css/portal-css/portal.css">
 
     <!-- Google Font -->
     <!-- Fonts -->
@@ -36,27 +35,25 @@ $CSS_Path = 'assets/portal-css/portal.css';
     <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img src="assets/img/logo/mympp-logo.png" alt="logo-mympp">
+            <!-- <h1 class="sitename">Axis</h1> -->
+        </a>
 
-            <a href="index.html" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo/mympp-logo.png" alt="logo-mympp">
-                <!-- <h1 class="sitename">Axis</h1> -->
-            </a>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active">Utama</a></li>
+                <li><a href="#about">Ahli Majlis</a></li>
+                <li><a href="#services">Perkhidmatan</a></li>
+                <li><a href="#why-us">Info Sistem</a></li>
+                <li><a href="#contact">Hubungi Kami</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+    </div>
+</header>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="#hero" class="active">Utama</a></li>
-                    <li><a href="#about">Ahli Majlis</a></li>
-                    <li><a href="#services">Perkhidmatan</a></li>
-                    <li><a href="#why-us">Info Sistem</a></li>
-                    <li><a href="#contact">Hubungi Kami</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-        </div>
-    </header>
-</body>
 </html>
