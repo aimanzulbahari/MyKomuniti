@@ -2,7 +2,8 @@
 <?php
 $favicon = 'assets/img/MBSA-Emblem.svg';
 $logo = 'assets/img/logo/mympp-logo.png';
-$site_name = "MYMPP | UTAMA"
+$site_name = "MYMPP | UTAMA";
+$CSS_Path = 'assets/portal-css/portal.css';
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,7 @@ $site_name = "MYMPP | UTAMA"
     <link rel="shortcut icon" href="<?php echo $favicon ?>" type="image/x-icon">
 
     <!-- Portal CSS -->
-    <link rel="stylesheet" href="assets/css/portal-css/portal.css">
+    
 
     <!-- Google Font -->
     <!-- Fonts -->
