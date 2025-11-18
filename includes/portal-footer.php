@@ -27,8 +27,8 @@
             <div class="col-lg-2 col-6 footer-links">
                 <h4>Pautan Pantas</h4>
                 <ul>
-                    <li><a href="#">Utama</a></li>
-                    <li><a href="#">Ahli Majlis</a></li>
+                    <li><a href="mykomuniti/#hero">Utama</a></li>
+                    <li><a href="about">Ahli Majlis</a></li>
                     <li><a href="#">Perkhidmatan</a></li>
                     <li><a href="#">Info Sistem</a></li>
                     <li><a href="#">Terma & Syarat</a></li>

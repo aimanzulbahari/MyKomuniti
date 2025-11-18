@@ -1,4 +1,4 @@
-<?php include 'includes/portal-header.php';?>
+<?php include 'includes/portal-header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,9 +68,8 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <span class="subtitle">Ahli Majlis</span>
-                <h2>Apa Itu Ahli Majlis</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
-                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+                <h2><?php echo ('Apa Itu Ahli Majlis ?') ?></h2>
+                <p><?php echo ('Ahli majlis ialah wakil rakyat di peringkat kerajaan tempatan yang berfungsi mewakili kepentingan penduduk setempat, menyalurkan aduan, serta menjadi penggerak untuk program dan aktiviti masyarakat') ?></p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -78,7 +77,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <div class="content">
-                            <h2>Crafting Excellence Through Innovation and Dedication</h2>
+                            <h2><?php echo ('Peranan Dan Fungsi Ahli Majlis') ?></h2>
                             <p class="lead">We are passionate professionals committed to delivering exceptional results that exceed
                                 expectations and drive meaningful transformation.</p>
 
@@ -92,23 +91,23 @@
 
                             <div class="stats-row">
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="15"
+                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24"
                                         data-purecounter-duration="1"></div>
                                     <div class="stat-label">Ahli Majlis</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="850"
+                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24"
                                         data-purecounter-duration="1"></div>
                                     <div class="stat-label">Zon Ahli Majlis</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="240"
+                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3"
                                         data-purecounter-duration="1"></div>
                                     <div class="stat-label">Pejabat Cawangan</div>
                                 </div>
                             </div>
                             <div class="cta-section">
-                                <a href="pages/mpp-members.php"  class="btn-outline">Senarai Ahli Majlis</a>
+                                <a href="pages/mpp-members.php" class="btn-outline">Senarai Ahli Majlis</a>
                             </div>
                         </div>
                     </div>
