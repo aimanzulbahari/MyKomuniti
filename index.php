@@ -1,7 +1,4 @@
-<?php
-include 'includes/portal-header.php';
-
-?>
+<?php include 'includes/portal-header.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -111,7 +108,7 @@ include 'includes/portal-header.php';
                                 </div>
                             </div>
                             <div class="cta-section">
-                                <a href="#" team="" class="btn-outline">Senarai Ahli Majlis</a>
+                                <a href="pages/mpp-members.php"  class="btn-outline">Senarai Ahli Majlis</a>
                             </div>
                         </div>
                     </div>
@@ -135,6 +132,85 @@ include 'includes/portal-header.php';
                 </div>
             </div>
         </section><!-- /About Section -->
+
+        <section id="services" class="services section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <span class="subtitle">Perkhidmatan</span>
+                <h2>Perkhidmatan Yang Disediakan</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-laptop-fill"></i>
+                            </div>
+                            <h3>Perkhidmatan Online</h3>
+                            <p>Hantar permohonan ahli majlis secara dalam talian tanpa perlu datang ke pejabat. Jimat masa dan tenaga
+                                anda.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-clock-fill"></i>
+                            </div>
+                            <h3>24/7 Akses</h3>
+                            <p>Akses sistem pada bila-bila masa, di mana sahaja. Kemudahan untuk anda membuat permohonan mengikut
+                                kesesuaian.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-file-bar-graph-fill"></i>
+                            </div>
+                            <h3>Semak Status</h3>
+                            <p>Semak status permohonan anda dengan mudah dan pantau perkembangan secara
+                                real-time melalui dashboard.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-paperclip"></i>
+                            </div>
+                            <h3>Dokumen Digital</h3>
+                            <p>Muat naik dokumen sokongan secara digital. Tiada lagi keperluan untuk dokumen fizikal.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fadse-up" data-aos-delay="300">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-shield-fill-check"></i>
+                            </div>
+                            <h3>Selamat & Terjamin</h3>
+                            <p>Maklumat anda dilindungi dengan sistem keselamatan yang tinggi dan mematuhi piawaian privasi.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="bi-megaphone-fill"></i>
+                            </div>
+                            <h3>Notifikasi</h3>
+                            <p>Terima makluman automatik mengenai status permohonan anda melalui email dan notifikasi sistem.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+                </div>
+            </div>
+        </section><!-- /Services Section -->
 
         <!-- Why Us Section -->
         <section id="why-us" class="why-us section">
