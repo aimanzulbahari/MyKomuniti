@@ -1,24 +1,77 @@
-<?php include 'includes/portal-header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MYMPP | MBSA</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/MBSA-Emblem.svg" type="image/x-icon">
+
+    <!-- Portal CSS -->
+    <link rel="stylesheet" href="assets/css/portal-css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+
 </head>
 
 <body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="#" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <img src="assets/img/logo/mympp-logo.png" alt="logo-mympp">
+                <!-- <h1 class="sitename">Axis</h1> -->
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Utama</a></li>
+                    <li><a href="#about">Ahli Majlis</a></li>
+                    <li><a href="#services">Perkhidmatan</a></li>
+                    <li><a href="#why-us">Info Sistem</a></li>
+                    <li><a href="#contact">Hubungi Kami</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
     <main class="main">
+
         <!-- Hero Section -->
         <section id="hero" class="hero section light-background">
+
             <div class="container" data-aos="fade-up" data-aos-delay="100">
+
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content">
                             <h1 data-aos="fade-up" data-aos-delay="200">Selamat Datang Ke Portal Rasmi MYMPP</h1>
-                            <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud
                                 exercitation ullamco laboris.</p>
                             <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
                                 <a href="register.php" class="btn-primary">Daftar Akaun</a>
@@ -46,7 +99,7 @@
 
                     <div class="col-lg-6">
                         <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
-                            <img src="assets/img/mympp-about/Shah-Alam.jpeg" alt="Business Success" class="img-fluid">
+                            <img src="assets/img/about/Shah-Alam.jpeg" alt="Business Success" class="img-fluid">
                             <div class="floating-card" data-aos="zoom-in" data-aos-delay="600">
                                 <div class="card-icon">
                                     <i class="bi bi-graph-up-arrow"></i>
@@ -59,8 +112,10 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-        </section>
+
+        </section><!-- /Hero Section -->
 
         <!-- About Section -->
         <section id="about" class="about section">
@@ -68,8 +123,10 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <span class="subtitle">Ahli Majlis</span>
-                <h2><?php echo ('Apa Itu Ahli Majlis ?') ?></h2>
-                <p><?php echo ('Ahli majlis ialah wakil rakyat di peringkat kerajaan tempatan yang berfungsi mewakili kepentingan penduduk setempat, menyalurkan aduan, serta menjadi penggerak untuk program dan aktiviti masyarakat') ?></p>
+                <h2>Apa Itu Ahli Majlis</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde
+                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -77,44 +134,50 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <div class="content">
-                            <h2><?php echo ('Peranan Dan Fungsi Ahli Majlis') ?></h2>
-                            <p class="lead">We are passionate professionals committed to delivering exceptional results that exceed
+                            <h2>Crafting Excellence Through Innovation and Dedication</h2>
+                            <p class="lead">We are passionate professionals committed to delivering exceptional results
+                                that exceed
                                 expectations and drive meaningful transformation.</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip
                                 ex ea commodo consequat.</p>
 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est
                                 laborum.</p>
 
                             <div class="stats-row">
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24"
-                                        data-purecounter-duration="1"></div>
+                                    <div class="stat-number purecounter" data-purecounter-start="0"
+                                        data-purecounter-end="15" data-purecounter-duration="1"></div>
                                     <div class="stat-label">Ahli Majlis</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24"
-                                        data-purecounter-duration="1"></div>
+                                    <div class="stat-number purecounter" data-purecounter-start="0"
+                                        data-purecounter-end="850" data-purecounter-duration="1"></div>
                                     <div class="stat-label">Zon Ahli Majlis</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3"
-                                        data-purecounter-duration="1"></div>
+                                    <div class="stat-number purecounter" data-purecounter-start="0"
+                                        data-purecounter-end="240" data-purecounter-duration="1"></div>
                                     <div class="stat-label">Pejabat Cawangan</div>
                                 </div>
                             </div>
+
                             <div class="cta-section">
-                                <a href="pages/mpp-members.php" class="btn-outline">Senarai Ahli Majlis</a>
+                                <a href="#" team="" class="btn-outline">Senarai Ahli Majlis</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="image-wrapper">
-                            <img src="assets/img/mympp-about/MBSA.jpg" alt="About us" class="img-fluid">
+                            <img src="assets/img/about/MBSA.jpg" alt="About us" class="img-fluid">
                             <div class="floating-card" data-aos="zoom-in" data-aos-delay="500">
                                 <div class="card-content">
                                     <div class="icon">
@@ -129,29 +192,35 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </section><!-- /About Section -->
 
+        <!-- Services Section -->
         <section id="services" class="services section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <span class="subtitle">Perkhidmatan</span>
                 <h2>Perkhidmatan Yang Disediakan</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde
                     omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="row gy-5">
+
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item">
                             <div class="service-icon">
                                 <i class="bi-laptop-fill"></i>
                             </div>
                             <h3>Perkhidmatan Online</h3>
-                            <p>Hantar permohonan ahli majlis secara dalam talian tanpa perlu datang ke pejabat. Jimat masa dan tenaga
+                            <p>Hantar permohonan ahli majlis secara dalam talian tanpa perlu datang ke pejabat. Jimat
+                                masa dan tenaga
                                 anda.</p>
                         </div>
                     </div><!-- End Service Item -->
@@ -162,7 +231,8 @@
                                 <i class="bi-clock-fill"></i>
                             </div>
                             <h3>24/7 Akses</h3>
-                            <p>Akses sistem pada bila-bila masa, di mana sahaja. Kemudahan untuk anda membuat permohonan mengikut
+                            <p>Akses sistem pada bila-bila masa, di mana sahaja. Kemudahan untuk anda membuat permohonan
+                                mengikut
                                 kesesuaian.</p>
                         </div>
                     </div><!-- End Service Item -->
@@ -184,17 +254,19 @@
                                 <i class="bi-paperclip"></i>
                             </div>
                             <h3>Dokumen Digital</h3>
-                            <p>Muat naik dokumen sokongan secara digital. Tiada lagi keperluan untuk dokumen fizikal.</p>
+                            <p>Muat naik dokumen sokongan secara digital. Tiada lagi keperluan untuk dokumen fizikal.
+                            </p>
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fadse-up" data-aos-delay="300">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item">
                             <div class="service-icon">
                                 <i class="bi-shield-fill-check"></i>
                             </div>
                             <h3>Selamat & Terjamin</h3>
-                            <p>Maklumat anda dilindungi dengan sistem keselamatan yang tinggi dan mematuhi piawaian privasi.</p>
+                            <p>Maklumat anda dilindungi dengan sistem keselamatan yang tinggi dan mematuhi piawaian
+                                privasi.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -204,7 +276,8 @@
                                 <i class="bi-megaphone-fill"></i>
                             </div>
                             <h3>Notifikasi</h3>
-                            <p>Terima makluman automatik mengenai status permohonan anda melalui email dan notifikasi sistem.</p>
+                            <p>Terima makluman automatik mengenai status permohonan anda melalui email dan notifikasi
+                                sistem.</p>
                         </div>
                     </div><!-- End Service Item -->
                 </div>
@@ -213,29 +286,37 @@
 
         <!-- Why Us Section -->
         <section id="why-us" class="why-us section">
+
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <span class="subtitle">Info Sistem</span>
                 <h2>Info Mengenai Sistem</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde
                     omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
             </div><!-- End Section Title -->
+
             <div class="container" data-aos="fade-up" data-aos-delay="100">
+
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <div class="content">
                             <h2>Teknologi Yang Digunakan</h2>
-                            <p>We deliver exceptional results through proven expertise, cutting-edge innovation, and unwavering
-                                commitment to your success. Our comprehensive approach ensures sustainable growth and competitive
+                            <p>We deliver exceptional results through proven expertise, cutting-edge innovation, and
+                                unwavering
+                                commitment to your success. Our comprehensive approach ensures sustainable growth and
+                                competitive
                                 advantage.</p>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="image-wrapper">
-                            <img src="assets/img/mympp-about/info-sistem.jpg" alt="Professional team collaboration" class="img-fluid">
+                            <img src="assets/img/about/info-sistem.jpg" alt="Professional team collaboration"
+                                class="img-fluid">
                         </div>
                     </div>
                 </div>
+
                 <div class="features-grid" data-aos="fade-up" data-aos-delay="400">
                     <div class="row g-5">
 
@@ -246,11 +327,13 @@
                                 </div>
                                 <div class="feature-content">
                                     <h3>Front-End</h3>
-                                    <p>We stay ahead of industry trends, implementing cutting-edge technologies and methodologies that
+                                    <p>We stay ahead of industry trends, implementing cutting-edge technologies and
+                                        methodologies that
                                         drive transformational results for your business growth.</p>
                                 </div>
                             </div>
                         </div><!-- End Feature Item -->
+
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="feature-item">
                                 <div class="icon-wrapper">
@@ -258,11 +341,13 @@
                                 </div>
                                 <div class="feature-content">
                                     <h3>Back-End</h3>
-                                    <p>Our team brings decades of combined experience across multiple industries, ensuring strategic
+                                    <p>Our team brings decades of combined experience across multiple industries,
+                                        ensuring strategic
                                         insights and tactical execution that delivers measurable outcomes.</p>
                                 </div>
                             </div>
                         </div><!-- End Feature Item -->
+
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="feature-item">
                                 <div class="icon-wrapper">
@@ -270,11 +355,13 @@
                                 </div>
                                 <div class="feature-content">
                                     <h3>Infrastruktur & Server</h3>
-                                    <p>Round-the-clock availability with personalized attention from dedicated account managers who
+                                    <p>Round-the-clock availability with personalized attention from dedicated account
+                                        managers who
                                         understand your unique challenges and objectives.</p>
                                 </div>
                             </div>
                         </div><!-- End Feature Item -->
+
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="feature-item">
                                 <div class="icon-wrapper">
@@ -282,15 +369,20 @@
                                 </div>
                                 <div class="feature-content">
                                     <h3>Keselamatan Data Pengguna</h3>
-                                    <p>Streamlined processes and intelligent resource allocation reduce overhead while maximizing ROI,
+                                    <p>Streamlined processes and intelligent resource allocation reduce overhead while
+                                        maximizing ROI,
                                         delivering premium results within your budget parameters.</p>
                                 </div>
                             </div>
                         </div><!-- End Feature Item -->
+
                     </div>
                 </div>
+
             </div>
+
         </section><!-- /Why Us Section -->
+
 
         <!-- Contact Section -->
         <section id="contact" class="contact section light-background">
@@ -298,22 +390,26 @@
             <div class="container section-title" data-aos="fade-up">
                 <span class="subtitle">Hubungi</span>
                 <h2>Hubungi Kami</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut
+                    perspiciatis unde
                     omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
             </div><!-- End Section Title -->
 
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5">
+
                         <div class="info-item">
                             <div class="info-icon">
                                 <i class="bi bi-chat-dots"></i>
                             </div>
                             <div class="info-content">
                                 <h4>Maklumat Hubungan</h4>
-                                <p>We're here to discuss your vision and explore how we can bring it to life together.</p>
+                                <p>We're here to discuss your vision and explore how we can bring it to life together.
+                                </p>
                             </div>
                         </div>
+
                         <div class="contact-details">
 
                             <div class="detail-item">
@@ -346,7 +442,9 @@
                                         Shah Alam, Selangor Darul Ehsan</span>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
 
                     <div class="col-lg-7">
@@ -354,7 +452,9 @@
                             <div class="form-header">
                                 <h3>Tinggalkan Mesej Kepada Kami</h3>
                             </div>
+
                             <form action="forms/contact.php" method="post" class="php-email-form">
+
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -369,32 +469,124 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
                                     <label>Subjek</label>
                                     <input type="text" name="subject" required="">
                                 </div>
+
                                 <div class="form-group">
                                     <label for="projectMessage">Mesej/Pesanan</label>
                                     <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
                                 </div>
+
                                 <div class="my-3">
                                     <div class="loading">Loading</div>
                                     <div class="error-message"></div>
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
+
                                 <button type="submit" class="submit-btn">
                                     <span>Hantar</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </button>
+
                             </form>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
+
         </section><!-- /Contact Section -->
 
     </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">MYMPP | MBSA</span>
+                    </a>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                        valies darta
+                        donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="#">Utama</a></li>
+                        <li><a href="#">Ahli Majlis</a></li>
+                        <li><a href="#">Perkhidmatan</a></li>
+                        <li><a href="#">Info Sistem</a></li>
+                        <li><a href="#">Terma & Syarat</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Perkhidmatan Kami</h4>
+                    <ul>
+                        <li><a href="https://ipis.mbsa.gov.my/" target="_blank">IPIS</a></li>
+                        <li><a href="https://ipusara.mbsa.gov.my/" target="_blank">IPusara</a></li>
+                        <li><a href="https://www.mymbsa.gov.my/" target="_blank">MYMBSA</a></li>
+                        <li><a href="https://mbsa.spab.gov.my/eApps/system/index.do" target="_blank">SISPAA MBSA</a>
+                        </li>
+                        <li><a href="https://www.mbsa.gov.my/" target="_blank">Portal Rasmi MBSA</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Hubungi Kami</h4>
+                    <p>A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                    <p>United States</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>2025 Majlis Bandaraya Shah Alam</span> <strong class="px-1 sitename">MYMPP | MBSA</strong>
+                <span>Hak
+                    Cipta Terpelihara</span>
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/portal.js"></script>
+
 </body>
-<?php include 'includes/portal-footer.php'; ?>
 
 </html>
