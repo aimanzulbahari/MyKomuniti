@@ -543,7 +543,6 @@ h6 {
 .footer .copyright {
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
 .footer .copyright p {

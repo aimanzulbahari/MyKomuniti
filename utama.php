@@ -37,11 +37,11 @@
             </a>
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active"><?php echo ('Utama')?></a></li>
-                    <li><a href="#about"><?php echo ('Ahli Majlis')?></a></li>
-                    <li><a href="#services"><?php echo ('Perkhidmatan')?></a></li>
-                    <li><a href="#why-us"><?php echo ('Info Sistem')?></a></li>
-                    <li><a href="#contact"><?php echo ('Hubungi Kami')?></a></li>
+                    <li><a href="#hero" class="active"><?php echo ('Utama') ?></a></li>
+                    <li><a href="#about"><?php echo ('Ahli Majlis') ?></a></li>
+                    <li><a href="#services"><?php echo ('Perkhidmatan') ?></a></li>
+                    <li><a href="#why-us"><?php echo ('Info Sistem') ?></a></li>
+                    <li><a href="#contact"><?php echo ('Hubungi Kami') ?></a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -63,7 +63,7 @@
                                 <a href="auth/register.php" class="btn-primary"><?php echo ('Daftar Akaun') ?></a>
                                 <a href="auth/login.php" class="btn-secondary">
                                     <i class="bi-box-arrow-right"></i>
-                                        <?php echo ('Log Masuk') ?>
+                                    <?php echo ('Log Masuk') ?>
                                 </a>
                             </div>
                             <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
@@ -91,8 +91,8 @@
                                     <i class="bi bi-graph-up-arrow"></i>
                                 </div>
                                 <div class="card-content">
-                                    <h5><?php echo ('Jubli Perak MBSA')?></h5>
-                                    <div class="growth-percentage"><?php echo ('25 Tahun')?></div>
+                                    <h5><?php echo ('Jubli Perak MBSA') ?></h5>
+                                    <div class="growth-percentage"><?php echo ('25 Tahun') ?></div>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                             </div>
 
                             <div class="cta-section">
-                                <a href="pages/mpp-members.php" team="" class="btn-outline"><?php echo ('Senarai Ahli Majlis') ?></a>
+                                <a href="pages/mpp-members.php" team="" class="btn-outline"><?php echo ('Senarai Ahli Majlis MBSA') ?></a>
                             </div>
                         </div>
                     </div>
@@ -175,10 +175,10 @@
         <section id="services" class="services section">
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <span class="subtitle">Perkhidmatan</span>
-                <h2>Perkhidmatan Yang Disediakan</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
-                    omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+                <span class="subtitle"><?php echo ('Perkhidmatan') ?></span>
+                <h2><?php echo ('Perkhidmatan Yang Disediakan') ?></h2>
+                <p><?php echo ('Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+                        omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam') ?></p>
             </div><!-- End Section Title -->
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-5">
@@ -187,9 +187,9 @@
                             <div class="service-icon">
                                 <i class="bi-laptop-fill"></i>
                             </div>
-                            <h3>Perkhidmatan Online</h3>
-                            <p>Hantar permohonan ahli majlis secara dalam talian tanpa perlu datang ke pejabat. Jimat masa dan tenaga
-                                anda.</p>
+                            <h3><?php echo ('Perkhidmatan Online') ?></h3>
+                            <p><?php echo ('Hantar permohonan ahli majlis secara dalam talian tanpa perlu datang ke pejabat. Jimat masa dan tenaga
+                                    anda.') ?></p>
                         </div>
                     </div>
 
@@ -198,9 +198,9 @@
                             <div class="service-icon">
                                 <i class="bi-clock-fill"></i>
                             </div>
-                            <h3>24/7 Akses</h3>
-                            <p>Akses sistem pada bila-bila masa, di mana sahaja. Kemudahan untuk anda membuat permohonan mengikut
-                                kesesuaian.</p>
+                            <h3><?php echo ('24/7 Akses') ?></h3>
+                            <p><?php echo ('Akses sistem pada bila-bila masa, di mana sahaja. Kemudahan untuk anda membuat permohonan mengikut
+                                    kesesuaian.') ?></p>
                         </div>
                     </div>
 
@@ -209,9 +209,9 @@
                             <div class="service-icon">
                                 <i class="bi-file-bar-graph-fill"></i>
                             </div>
-                            <h3>Semak Status</h3>
-                            <p>Semak status permohonan anda dengan mudah dan pantau perkembangan secara
-                                real-time melalui dashboard.</p>
+                            <h3><?php echo ('Semak Status')?></h3>
+                            <p><?php echo ('Semak status permohonan anda dengan mudah dan pantau perkembangan secara
+                                real-time melalui dashboard.')?></p>
                         </div>
                     </div>
 
@@ -220,8 +220,8 @@
                             <div class="service-icon">
                                 <i class="bi-paperclip"></i>
                             </div>
-                            <h3>Dokumen Digital</h3>
-                            <p>Muat naik dokumen sokongan secara digital. Tiada lagi keperluan untuk dokumen fizikal.</p>
+                            <h3><?php echo ('Dokumen Digital')?></h3>
+                            <p><?php echo ('Muat naik dokumen sokongan secara digital. Tiada lagi keperluan untuk dokumen fizikal.')?></p>
                         </div>
                     </div>
 
@@ -230,8 +230,8 @@
                             <div class="service-icon">
                                 <i class="bi-shield-fill-check"></i>
                             </div>
-                            <h3>Selamat & Terjamin</h3>
-                            <p>Maklumat anda dilindungi dengan sistem keselamatan yang tinggi dan mematuhi piawaian privasi.</p>
+                            <h3><?php echo ('Selamat & Terjamin')?></h3>
+                            <p><?php echo ('Maklumat anda dilindungi dengan sistem keselamatan yang tinggi dan mematuhi piawaian privasi.')?></p>
                         </div>
                     </div>
 
@@ -240,8 +240,8 @@
                             <div class="service-icon">
                                 <i class="bi-megaphone-fill"></i>
                             </div>
-                            <h3>Notifikasi</h3>
-                            <p>Terima makluman automatik mengenai status permohonan anda melalui email dan notifikasi sistem.</p>
+                            <h3><?php echo ('Notifikasi')?></h3>
+                            <p><?php echo ('Terima makluman automatik mengenai status permohonan anda melalui email dan notifikasi sistem.')?></p>
                         </div>
                     </div>
                 </div>
@@ -430,12 +430,11 @@
     </main>
 
     <footer id="footer" class="footer dark-background">
-
         <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-about">
                     <a href="#" class="logo d-flex align-items-center">
-                        <span class="sitename">MYMPP | MBSA</span>
+                        <span class="sitename"><?php echo ('MYMPP | MBSA')?></span>
                     </a>
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
                         donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -448,18 +447,18 @@
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>Pautan Pantas</h4>
+                    <h4><?php echo ('Pautan Pantas')?></h4>
                     <ul>
-                        <li><a href="#">Utama</a></li>
-                        <li><a href="#">Ahli Majlis</a></li>
-                        <li><a href="#">Perkhidmatan</a></li>
-                        <li><a href="#">Info Sistem</a></li>
-                        <li><a href="#">Hubungi Kami</a></li>
+                        <li><a href="#"><?php echo ('Utama')?></a></li>
+                        <li><a href="#"><?php echo ('Ahli Majlis')?></a></li>
+                        <li><a href="#"><?php echo ('Perkhidmatan')?></a></li>
+                        <li><a href="#"><?php echo ('Info Sistem')?></a></li>
+                        <li><a href="#"><?php echo ('Hubungi Kami')?></a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>Perkhidmatan Kami</h4>
+                    <h4><?php echo ('Perkhidmatan Kami')?></h4>
                     <ul>
                         <li><a href="https://ipis.mbsa.gov.my/" target="_blank"><?php echo ('iPIS') ?></a></li>
                         <li><a href="https://ipusara.mbsa.gov.my/" target="_blank"><?php echo ('IPusara') ?></a></li>
@@ -482,8 +481,8 @@
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>2025 Majlis Bandaraya Shah Alam</span> <strong class="px-1 sitename">MYMPP | MBSA</strong> <span>Hak
-                    Cipta Terpelihara</span></p>
+            <p><?php echo ('©')?> <span>2025 Majlis Bandaraya Shah Alam</span> <strong class="px-1 sitename"><?php echo ('MYMPP | MBSA')?></strong> <span><?php echo ('Hak
+                    Cipta Terpelihara')?></span></p>
         </div>
     </footer>
 
