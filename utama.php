@@ -10,13 +10,13 @@
     <link rel="shortcut icon" href="assets/img/MBSA-Emblem.svg" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/portal-css/main.css">
+    <link rel="stylesheet" href="assets/css/portal-css/portal.css">
 
 
 </head>
 
 <body>
-
+    
 </body>
 
 </html>
