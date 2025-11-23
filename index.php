@@ -30,7 +30,7 @@
 <body class="index-page">
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-            <a href="utama.php" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="assets/img/logo/mympp-logo.png" alt="logo-mympp">
                 <!-- <h1 class="sitename">Axis</h1> -->
@@ -60,8 +60,8 @@
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation ullamco laboris.</p>
                             <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
-                                <a href="auth/register.php" class="btn-primary"><?php echo ('Daftar Akaun') ?></a>
-                                <a href="auth/login.php" class="btn-secondary">
+                                <a href="pages/404.php" class="btn-primary"><?php echo ('Daftar Akaun') ?></a>
+                                <a href="pages/404.php" class="btn-secondary">
                                     <i class="bi-box-arrow-right"></i>
                                     <?php echo ('Log Masuk') ?>
                                 </a>
