@@ -61,7 +61,7 @@
                                 exercitation ullamco laboris.</p>
                             <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
                                 <a href="pages/404.php" class="btn-primary"><?php echo ('Daftar Akaun') ?></a>
-                                <a href="pages/404.php" class="btn-secondary">
+                                <a href="auth/mpp-login.php" class="btn-secondary">
                                     <i class="bi-box-arrow-right"></i>
                                     <?php echo ('Log Masuk') ?>
                                 </a>
