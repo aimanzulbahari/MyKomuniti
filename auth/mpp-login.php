@@ -59,12 +59,11 @@ $site_name = "Log Masuk | Ahli Majlis"
         <!-- Brand Section -->
         <div class="brand-section">
             <div class="brand-logo">
-                <!--               <img href="https://upload.wikimedia.org/wikipedia/commons/e/e9/Shah_Alam_Emblem.svg"> -->
-                <h1>Log Masuk | Ahli Majlis</h1>
+                <h1><?php echo ('Log Masuk | Ahli Majlis')?></h1>
             </div>
             <div class="brand-description">
-                <h2>Selamat datang ke Sistem MyMPP</h2>
-                <p>Akses selamat dan mudah ke semua aplikasi korporat dengan satu akaun sahaja.</p>
+                <h2><?php echo ('Selamat Datang Ke Sistem MYMPP')?></h2>
+                <p><?php echo ('Akses Selamat Dan Mudah Ke Semua Ahli Majlis')?></p>
             </div>
             <ul class="brand-features">
                 <li><i class="fas fa-check-circle"></i> Akses kepada semua sistem dengan satu login</li>

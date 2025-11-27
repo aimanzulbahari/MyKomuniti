@@ -59,12 +59,11 @@ $site_name = "Log Masuk | Pentadbir Sistem"
         <!-- Brand Section -->
         <div class="brand-section">
             <div class="brand-logo">
-                <!--               <img href="https://upload.wikimedia.org/wikipedia/commons/e/e9/Shah_Alam_Emblem.svg"> -->
-                <h1>Log Masuk | Pentadbir Sistem</h1>
+                <h1><?php echo ('Log Masuk | Pentadbir Sistem')?></h1>
             </div>
             <div class="brand-description">
                 <h2>Selamat datang ke Sistem MyMPP</h2>
-                <p>Akses selamat dan mudah ke semua aplikasi korporat dengan satu akaun sahaja.</p>
+                <p><?php echo ('Halaman Ini Hanya Kepada Pentadbir Sistem Sahaja')?></p>
             </div>
             <ul class="brand-features">
                 <li><i class="fas fa-check-circle"></i> Akses kepada semua sistem dengan satu login</li>

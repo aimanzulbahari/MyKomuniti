@@ -61,22 +61,22 @@
                                 exercitation ullamco laboris.</p>
                             <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
                                 <a href="pages/404.php" class="btn-primary"><?php echo ('Daftar Akaun') ?></a>
-                                <a href="auth/mpp-login.php" class="btn-secondary">
+                                <a href="pages/maintenance.php" class="btn-secondary">
                                     <i class="bi-box-arrow-right"></i>
                                     <?php echo ('Log Masuk') ?>
                                 </a>
                             </div>
                             <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
                                 <div class="stat-item">
-                                    <div class="stat-number">500+</div>
+                                    <div class="stat-number">670</div>
                                     <div class="stat-label">Jumlah Permohonan</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number">98%</div>
+                                    <div class="stat-number">12</div>
                                     <div class="stat-label">Jumlah Aktiviti</div>
                                 </div>
                                 <div class="stat-item">
-                                    <div class="stat-number">10+</div>
+                                    <div class="stat-number">15</div>
                                     <div class="stat-label">Jumlah SDG</div>
                                 </div>
                             </div>
