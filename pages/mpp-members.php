@@ -57,14 +57,14 @@ $logo_favicon = '../assets/img/MBSA-Emblem.svg';
 
     .page-header h1 {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 10px;
         color: var(--heading-color);
         text-transform: uppercase;
     }
 
     .page-header p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: var(--default-color);
     }
 
