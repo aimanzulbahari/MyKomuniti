@@ -2,9 +2,193 @@
     {
         "name": "Encik Suryamuizzudin Bin Kamarudin",
         "position": "Ahli Majlis Zon 1",
-        "image": "",
+        "image": "assets/img/mpp-pic/zon1.jpg",
         "email": "suryamuizzudin@mbsa.gov.my",
         "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 1, Jalan Durian 4/1, Seksyen 4, 40000 Shah Alam​​​​",
         "kawasan": "Seksyen 1, 2, 3, 4​, 5, 6, 8 & 14"
+    },
+    {
+        "name": "​YAD Dato' Haji Emran bin Haji Kadir",
+        "position": "Ahli Majlis Zon 2",
+        "image": "assets/img/mpp-pic/zon2.jpg",
+        "email": "emran@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 2, No.5, Tingkat 2, Jalan Tengku Ampuan Zabedah E9/E, Seksyen 9, 40100 Shah Alam​​​​",
+        "kawasan": "Seksyen 9, 10, 11, 12 & 13​"
+    },
+    {
+        "name": "Encik Maizan Bin Hj Abdul Majid",
+        "position": "Ahli Majlis Zon 3",
+        "image": "assets/img/mpp-pic/zon3.jpg",
+        "email": "suryamuizzudin@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli MajlisMPP Zon 3, Jalan Jasper 7/15,Seksyen 7, 40000 Shah Alam​​​​​​​",
+        "kawasan": "Seksyen ​7"
+    },
+    {
+        "name": "Encik Chow Pung Meng",
+        "position": "Ahli Majlis Zon 4",
+        "image": "assets/img/mpp-pic/zon4.jpg",
+        "email": "suryamuizzudin@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli MajlisMPP Zon 4, Dewan Akasia, No.4, Jalan Pegaga U12/5, Seksyen U12, 40170 Shah Alam​​​​​",
+        "kawasan": "Seksyen U11 & U12"
+    },
+    {
+        "name": "Puan Nur Yusmi binti Md Yusop",
+        "position": "Ahli Majlis Zon 5",
+        "image": "assets/img/mpp-pic/zon5.jpg",
+        "email": "nuryusmi@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 5, Dewan MBSA(Jati) Jalan 16/2, Seksyen 16, 40200 Shah Alam​​​",
+        "kawasan": "Seksyen 15 & 16"
+    },
+    {
+        "name": "Encik Mohd Firdaus Bin Mokhtar",
+        "position": "Ahli Majlis Zon 6",
+        "image": "assets/img/mpp-pic/zon6.jpg",
+        "email": "firdausmokhtar@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 6, Dewan MBSA (Merbau), 17B,Jalan Senangin 17/2, Seksyen 17, 40200 Shah Alam​​",
+        "kawasan": "Seksyen ​17 & ​18"
+    },
+    {
+        "name": "Encik Hamdan Bin Harun",
+        "position": "Ahli Majlis Zon 7",
+        "image": "assets/img/mpp-pic/zon7.jpg",
+        "email": "hamdanharun@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 7, Dewan Meranti, Jalan Cangkul 19/3, Seksyen 19, 40000 Shah Alam.​​",
+        "kawasan": "Seksyen 19, 20 & 21"
+    },
+    {
+        "name": "Puan Siti Nur Aishah binti Mohd Zain",
+        "position": "Ahli Majlis Zon 8",
+        "image": "assets/img/mpp-pic/zon1.jpg",
+        "email": "sitinuraishah@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 8, Dewan MBSA (Cengal), Jalan Cili Hijau 24/27, Seksyen 24, 40300 Shah Alam​",
+        "kawasan": "Seksyen 22, 23 & 24"
+    },
+    {
+        "name": "Encik Ramu a/l Nadarajan",
+        "position": "Ahli Majlis Zon 9",
+        "image": "assets/img/mpp-pic/zon9.jpg",
+        "email": "ramu@mbsa.gov.my",
+        "alamat": "Pus​at Khidmat Ahli Majlis MPP Zon 9, Dewan Azalea, Jalan Tokoh 25/28, Seksyen 25, 40400 Shah Alam​",
+        "kawasan": "Seksyen 25A"
+    },
+    {
+        "name": "Encik Mohamad Nizam Bin Kamjan",
+        "position": "Ahli Majlis Zon 10",
+        "image": "assets/img/mpp-pic/zon10.jpg",
+        "email": "nizam.kamjan@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 10, Dewan MBSA (Pulai), Jalan Gapis 27/71, ​Se​ksyen 27, 40400 Shah Alam​​",
+        "kawasan": "Seksyen 26, 27, 28 & 33A"
+    },
+    {
+        "name": "Encik Muhammad Nabil bin Norhalim",
+        "position": "Ahli Majlis Zon 11",
+        "image": "assets/img/mpp-pic/zon11.jpg",
+        "email": "nabil.norhalim@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 11, No.1-1, Jalan Sungai Rasau 32/25 Berjaya Park, 40460 Shah Alam​​​​​",
+        "kawasan": "Seksyen 29 & 30"
+    },
+    {
+        "name": "Encik Lim Shu Chzen",
+        "position": "Ahli Majlis Zon 12",
+        "image": "assets/img/mpp-pic/zon12.jpg",
+        "email": "edmund.lim@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 12, No. 34-2, Jalan Anggerik Vanilla W31/W,Seksyen 31. Kota Kemuning, 40460 Shah Alam​​​​​​",
+        "kawasan": "Seksyen ​31 & 33B"
+    },
+    {
+        "name": "Encik Nathindran Raj a/l Baskaran",
+        "position": "Ahli Majlis Zon 13",
+        "image": "assets/img/mpp-pic/zon13.jpg",
+        "email": "nathindran.raj@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 13, Dewan MBSA Kemuning Utama, No. 6 Jalan Kemuning Utama, Seksyen 32, 40460 Shah Alam​​​​​",
+        "kawasan": "Seksyen 32A"
+    },
+    {
+        "name": "Puan Yogeswari a/p Samynathan",
+        "position": "Ahli Majlis Zon 14",
+        "image": "assets/img/mpp-pic/zon14.jpg",
+        "email": "yogeswari@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 14,  No 15, Jalan Sasa h 25H, Bukit Kemuning, Seksyen 34, 40470 Shah Alam​​​​​​",
+        "kawasan": "Seksyen 25B, 32B &​ 34"
+    },
+    {
+        "name": "Puan Hasheena Begum Osanarau",
+        "position": "Ahli Majlis Zon 15",
+        "image": "assets/img/mpp-pic/zon15.jpg",
+        "email": "hasheena@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 15, Dewan MBSA (JATI), Lot 15593 Sg. Kandis, Seksyen 36, 40470 Shah Alam​​​​​",
+        "kawasan": "Seksyen 35 & ​36"
+    },
+    {
+        "name": "Encik Suryamuizzudin Bin Kamarudin",
+        "position": "Ahli Majlis Zon 16",
+        "image": "assets/img/mpp-pic/zon16.jpg",
+        "email": "murugiah@mbsa.gov.my",
+        "alamat": "Pus​at Khidmat Ahli Majlis MPP Zon 16 Dewan MBSA (Bunga Kertas), Jalan Opera H U2/H, Taman TTDI​ Jaya, Seksyen U2,40000 Shah Alam​",
+        "kawasan": "Seksyen U1 & U2"
+    },
+    {
+        "name": "Puan Ooi Haw Voon",
+        "position": "Ahli Majlis Zon 17",
+        "image": "assets/img/mpp-pic/zon17.jpg",
+        "email": "suryamuizzudin@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 17, Dewan MBSA (Resak), Jalan Subang Perdana Seksyen U3, 40150 Shah Alam​​​​​",
+        "kawasan": "Seksyen ​U3, U6 & U7"
+    },
+    {
+        "name": "Encik Mohd Shazrizat bin Zulkipli",
+        "position": "Ahli Majlis Zon 18",
+        "image": "assets/img/mpp-pic/zon18.jpg",
+        "email": "shahriza@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 18, Dewan MBSA (Sena), Jalan Uranus U5/127, Subang Pelangi, Seksyen U5,​40150 Shah Alam​",
+        "kawasan": "Seksyen U4​A & U5"
+    },
+    {
+        "name": "YM Tengku Ahmad bin Tengku Kasim",
+        "position": "Ahli Majlis Zon 19",
+        "image": "assets/img/mpp-pic/zon19.jpg",
+        "email": "tengkuahmad@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 19, Dewan MBSA (Bunga Sakura), No.1, Jalan Adang U8/U18, Seksyen U8, 40150 Shah Alam​​​​",
+        "kawasan": "Seksyen U8"
+    },
+    {
+        "name": "Puan Fatin Binti Ab Rahim",
+        "position": "Ahli Majlis Zon 20",
+        "image": "assets/img/mpp-pic/zon20.jpg",
+        "email": "fatinrahim.fr@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 20, No. 51-1 Jalan Pulau Lumut P U10/P Seksyen U10, 4​0150 Shah Alam​​",
+        "kawasan": "Seksyen U10 ,U14 & U15"
+    },
+    {
+        "name": "Encik Siow Fun Yean",
+        "position": "Ahli Majlis Zon 21",
+        "image": "assets/img/mpp-pic/zon21.jpg",
+        "email": "simon@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 21, Persiaran Setia Impian Seksyen U13 Setia Alam, 40170 Shah Alam ​​",
+        "kawasan": "Seksyen ​U13"
+    },
+    {
+        "name": "Encik Muhammad Shakir bin Ameer Mohideen",
+        "position": "Ahli Majlis Zon 22",
+        "image": "assets/img/mpp-pic/zon22.jpg",
+        "email": "shakir@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Majlis MPP Zon 22, Dewan MBSA (Pudina), No.2 Jalan Metafasa U16/1, Taman Bukit Subang, Seksyen U16, 40160 Shah Alam​​​​​",
+        "kawasan": "Seksyen U9 & U16"
+    },
+    {
+        "name": "Encik Anuar Bin Abdul Rahman",
+        "position": "Ahli Majlis Zon 23",
+        "image": "assets/img/mpp-pic/zon23.jpg",
+        "email": "anuar.abdrahman@mbsa,gov.my",
+        "alamat": "Pusat Khidmat Ahli Dewan MPP Zon 23, Dewan MBSA Paya Jaras (Dewan Seri Pelangi), Seksyen U1​9, 47000 Shah Alam​",
+        "kawasan": "Seksyen ​U17, U18 & U19A"
+    },
+    {
+        "name": "Encik Zulnizam bin Shahrani",
+        "position": "Ahli Majlis Zon 24",
+        "image": "assets/img/mpp-pic/zon24.jpg",
+        "email": "zulnizam@mbsa.gov.my",
+        "alamat": "Pusat Khidmat Ahli Dewan MPP Zon 24, Dewan MBSA (Meranti), Jalan 1D, Fasa 1, Bandar Baru Sg. Buloh, Seksyen U20, Sg. Buloh. 47000​ S​hah Alam.​​​​​",
+        "kawasan": "Seksyen ​U​4B, U​19B & U20"
     }
 ]
