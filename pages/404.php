@@ -1,15 +1,19 @@
+<?php
+$site_name = '404 | Halaman Ralat';
+$favicon = '../assets/img/MBSA-Emblem.svg'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>404 | Halaman Ralat</title>
+    <title><?php echo $site_name ?></title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="../assets/img/MBSA-Emblem.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $favicon ?>" type="image/x-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,12 +24,400 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="../vendor/aos/aos.css" rel="stylesheet">
-    <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="../assets/css/404-css/404.css">
 </head>
+
+<style>
+    /* Fonts */
+    :root {
+        --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --heading-font: "Montserrat", sans-serif;
+        --nav-font: "Poppins", sans-serif;
+    }
+
+    /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+    :root {
+        --background-color: #ffffff;
+        /* Background color for the entire website, including individual sections */
+        --default-color: #666666;
+        /* Default color used for the majority of the text content across the entire website */
+        --heading-color: #000000;
+        /* Color for headings, subheadings and title throughout the website */
+        --accent-color: #313131;
+        /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+        --surface-color: #ffffff;
+        /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+        --contrast-color: #ffffff;
+        /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+    }
+
+    /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+    :root {
+        --nav-color: #999999;
+        /* The default color of the main navmenu links */
+        --nav-hover-color: #000000;
+        /* Applied to main navmenu links when they are hovered over or active */
+        --nav-mobile-background-color: #ffffff;
+        /* Used as the background color for mobile navigation menu */
+    }
+
+    /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+    .light-background {
+        --background-color: #f9f9f9;
+        --surface-color: #ffffff;
+    }
+
+    .dark-background {
+        --background-color: #060606;
+        --default-color: #e3e3e3;
+        --heading-color: #ffffff;
+        --accent-color: #bdb5b5;
+        --surface-color: #252525;
+        --contrast-color: #ffffff;
+    }
+
+    /* Smooth scroll */
+    :root {
+        scroll-behavior: smooth;
+    }
+
+    /*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+    body {
+        color: var(--default-color);
+        background-color: var(--background-color);
+        font-family: var(--default-font);
+    }
+
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        color: color-mix(in srgb, var(--accent-color), transparent 25%);
+        text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--heading-color);
+        font-family: var(--heading-font);
+    }
+
+/*--------------------------------------------------------------
+# Error 404 Section
+--------------------------------------------------------------*/
+    .error-404 {
+        padding: 120px 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--surface-color), var(--accent-color) 3%) 100%);
+    }
+
+    .error-404 .error-content {
+        margin-bottom: 80px;
+    }
+
+    .error-404 .error-content .error-number {
+        font-size: 8rem;
+        font-weight: 300;
+        color: var(--accent-color);
+        margin-bottom: 20px;
+        letter-spacing: -0.02em;
+        opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+        .error-404 .error-content .error-number {
+            font-size: 6rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .error-404 .error-content .error-number {
+            font-size: 4.5rem;
+        }
+    }
+
+    .error-404 .error-content .error-title {
+        font-size: 3rem;
+        font-weight: 300;
+        color: var(--heading-color);
+        margin-bottom: 30px;
+        letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 768px) {
+        .error-404 .error-content .error-title {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .error-404 .error-content .error-title {
+            font-size: 2rem;
+        }
+    }
+
+    .error-404 .error-content .error-description {
+        font-size: 1.125rem;
+        line-height: 1.8;
+        color: color-mix(in srgb, var(--default-color), transparent 20%);
+        margin-bottom: 50px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+        .error-404 .error-content .error-description {
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+    }
+
+    .error-404 .error-content .error-actions {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+    }
+
+    .error-404 .error-content .error-actions .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        padding: 16px 32px;
+        background-color: var(--accent-color);
+        color: var(--contrast-color);
+        border: none;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .error-content .error-actions .btn-primary:hover {
+        background-color: color-mix(in srgb, var(--accent-color), black 10%);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 70%);
+    }
+
+    .error-404 .error-content .error-actions .btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        padding: 16px 32px;
+        background-color: transparent;
+        color: var(--heading-color);
+        border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .error-content .error-actions .btn-secondary:hover {
+        border-color: var(--accent-color);
+        color: var(--accent-color);
+        transform: translateY(-2px);
+    }
+
+    @media (max-width: 576px) {
+        .error-404 .error-content .error-actions {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .error-404 .error-content .error-actions .btn-primary,
+        .error-404 .error-content .error-actions .btn-secondary {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+        }
+    }
+
+    .error-404 .error-content .search-section .search-label {
+        font-size: 1rem;
+        color: var(--heading-color);
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .error-404 .error-content .search-section .search-form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-input {
+        width: 100%;
+        padding: 16px 60px 16px 20px;
+        border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
+        border-radius: 8px;
+        font-size: 1rem;
+        background-color: var(--surface-color);
+        color: var(--default-color);
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-input:focus {
+        outline: none;
+        border-color: var(--accent-color);
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color), transparent 85%);
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-input::placeholder {
+        color: color-mix(in srgb, var(--default-color), transparent 50%);
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-btn {
+        position: absolute;
+        right: 8px;
+        background: var(--accent-color);
+        border: none;
+        border-radius: 6px;
+        padding: 12px;
+        color: var(--contrast-color);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-btn:hover {
+        background-color: color-mix(in srgb, var(--accent-color), black 10%);
+    }
+
+    .error-404 .error-content .search-section .search-form .search-input-group .search-btn i {
+        font-size: 1rem;
+    }
+
+    .error-404 .helpful-links .links-title {
+        font-size: 2rem;
+        font-weight: 300;
+        color: var(--heading-color);
+        text-align: center;
+        margin-bottom: 60px;
+        letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 768px) {
+        .error-404 .helpful-links .links-title {
+            font-size: 1.75rem;
+            margin-bottom: 40px;
+        }
+    }
+
+    .error-404 .helpful-links .link-item {
+        text-align: center;
+        padding: 40px 20px;
+        height: 100%;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .helpful-links .link-item:hover {
+        transform: translateY(-10px);
+    }
+
+    .error-404 .helpful-links .link-item .link-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color), black 20%) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .helpful-links .link-item .link-icon i {
+        font-size: 1.75rem;
+        color: var(--contrast-color);
+    }
+
+    .error-404 .helpful-links .link-item h4 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--heading-color);
+        margin-bottom: 20px;
+    }
+
+    .error-404 .helpful-links .link-item p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: color-mix(in srgb, var(--default-color), transparent 20%);
+        margin-bottom: 25px;
+    }
+
+    .error-404 .helpful-links .link-item .link-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--accent-color);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .error-404 .helpful-links .link-item .link-cta:hover {
+        color: color-mix(in srgb, var(--accent-color), black 15%);
+        gap: 12px;
+    }
+
+    .error-404 .helpful-links .link-item .link-cta i {
+        font-size: 0.875rem;
+        transition: transform 0.3s ease;
+    }
+
+    .error-404 .helpful-links .link-item .link-cta:hover i {
+        transform: translateX(3px);
+    }
+
+    .error-404 .helpful-links .link-item:hover .link-icon {
+        transform: scale(1.1);
+        box-shadow: 0 15px 35px color-mix(in srgb, var(--accent-color), transparent 65%);
+    }
+
+    @media (max-width: 992px) {
+        .error-404 {
+            padding: 80px 0;
+        }
+
+        .error-404 .helpful-links .link-item {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .error-404 {
+            padding: 60px 0;
+            min-height: auto;
+        }
+
+        .error-404 .error-content {
+            margin-bottom: 60px;
+        }
+
+        .error-404 .helpful-links .links-title {
+            margin-bottom: 40px;
+        }
+    }
+</style>
 
 <body class="page-404">
     <main class="main">
@@ -35,16 +427,15 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8">
                         <div class="error-content">
-                            <div class="error-number" data-aos="zoom-in" data-aos-delay="200"><?php echo ('404')?></div>
-                            <h1 class="error-title" data-aos="fade-up" data-aos-delay="300"><?php echo ('Halaman Tidak Dijumpai')?></h1>
+                            <div class="error-number" data-aos="zoom-in" data-aos-delay="200"><?php echo ('404') ?></div>
+                            <h1 class="error-title" data-aos="fade-up" data-aos-delay="300"><?php echo ('Halaman Tidak Dijumpai') ?></h1>
                             <p class="error-description" data-aos="fade-up" data-aos-delay="400">
-                                <?php echo 
-                                ('Halaman yang anda cari mungkin telah dialihkan, ditukar namanya, atau buat sementara waktu tidak tersedia. 
-                                    Kami memohon maaf atas sebarang kesulitan yang dialami')?>
+                                <?php echo ('Halaman yang anda cari mungkin telah dialihkan, ditukar namanya, atau buat sementara waktu tidak tersedia. 
+                                    Kami memohon maaf atas sebarang kesulitan yang dialami') ?>
                             </p>
                             <div class="error-actions" data-aos="fade-up" data-aos-delay="500">
-                                <a href="../index.php" class="btn-primary"><?php echo ('Kembali Ke Halaman Utama')?></a>
-                                <a href="https://ipis.mbsa.gov.my/" target="_blank" class="btn-secondary"><?php echo ('Meja Bantuan | MyITPro')?></a>
+                                <a href="../index.php" class="btn-primary"><?php echo ('Kembali Ke Halaman Utama') ?></a>
+                                <a href="https://ipis.mbsa.gov.my/" target="_blank" class="btn-secondary"><?php echo ('Meja Bantuan | MyITPro') ?></a>
                             </div>
                         </div>
                     </div>
@@ -53,21 +444,12 @@
         </section>
     </main>
 
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
     <!-- Preloader -->
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../vendor/aos/aos.js"></script>
-    <script src="../vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
-
     <!-- Main JS File -->
     <script src="../assets/js/portal.js"></script>
 

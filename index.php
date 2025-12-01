@@ -1,15 +1,20 @@
+<?php
+$site_name = 'MBSA | MYMPP';
+$favicon = 'assets/img/MBSA-Emblem.svg'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>MBSA | MYMPP</title>
+    <title><?php echo $site_name ?></title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/img/MBSA-Emblem.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $favicon ?>" type="image/x-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -251,7 +256,7 @@
         <!-- Why Us Section -->
         <section id="why-us" class="why-us section">
             <div class="container section-title" data-aos="fade-up">
-                <span class="subtitle">Info Sistem</span>
+                <span class="subtitle"><?php echo ('Info Sistem')?></span>
                 <h2>Info Mengenai Sistem</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
                     omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
