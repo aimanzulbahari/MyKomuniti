@@ -61,7 +61,7 @@ $favicon = 'assets/img/MBSA-Emblem.svg'
                     <div class="col-lg-6">
                         <div class="hero-content">
                             <h1 data-aos="fade-up" data-aos-delay="200"><?php echo ('Selamat Datang Ke Portal Rasmi MYMPP') ?></h1>
-                            <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                            <p data-aos="fade-up" data-aos-delay="300" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation ullamco laboris.</p>
                             <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
